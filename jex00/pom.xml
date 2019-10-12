@@ -110,6 +110,22 @@
 			<version>1.18.0</version>
 			<scope>provided</scope>
 		</dependency>
+
+		<!--oracle jdbc-->
+		<dependency>
+			<groupId>oracle</groupId>
+			<artifactId>oracle.jdbc</artifactId>
+			<version>1.0.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/webapp/lib/ojdbc8.jar</systemPath>
+		</dependency>
+
+		<!-- DBCP -->
+		<dependency>
+			<groupId>com.zaxxer</groupId>
+			<artifactId>HikariCP</artifactId>
+			<version>2.7.4</version>
+		</dependency>
 	</dependencies>
     <build>
         <plugins>
