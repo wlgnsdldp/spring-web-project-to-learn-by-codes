@@ -85,4 +85,12 @@ public class SampleController {
         return "ex03";
     }
 
+    @GetMapping("/ex04")
+    public String ex04(SampleDTO dto, int page){
+
+        log.info("dto: " + dto);
+        log.info("page: " + page);
+
+        return "/sample/ex04";
+    }
 }
