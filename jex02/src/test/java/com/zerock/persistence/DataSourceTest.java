@@ -1,4 +1,4 @@
-package persistence;
+package com.zerock.persistence;
 
 import com.zerock.config.RootConfig;
 import lombok.Setter;
